@@ -88,8 +88,8 @@ function Form() {
       </div>
 
       <div className={styles.buttons}>
-        <button className={`${sty.btn}  ${sty.primary}`} onClick={handleAdd}>Add</button>
-        <button onClick={() => { navigate("/app/cities");; }}>&larr; Back</button>
+        <button className={`${sty.btn}  ${sty.primary}`} onClick={handleAdd}>+</button>
+        <button onClick={() => { navigate("/app/cities");; }}>&larr;</button>
       </div>
     </form>
   );
