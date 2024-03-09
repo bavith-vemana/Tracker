@@ -89,7 +89,7 @@ function Form() {
 
       <div className={styles.buttons}>
         <button className={`${sty.btn}  ${sty.primary}`} onClick={handleAdd}>+</button>
-        <button onClick={() => { navigate("/app/cities");; }}>&larr;</button>
+        <button className={`${sty.btn}  ${sty.primary}`} onClick={() => { navigate("/app/cities");; }}>&larr;</button>
       </div>
     </form>
   );
